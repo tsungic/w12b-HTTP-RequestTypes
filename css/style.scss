@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#page-container {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    #form-container {
+        min-height: 50vh;
+    }
+
+    #posts-container {
+        min-height: 50vh;
+    }
+}
